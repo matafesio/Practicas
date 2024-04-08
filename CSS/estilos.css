@@ -79,8 +79,8 @@ article {
 }
 
 .efecto-volteo {
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     background-color: rgb(31,25,47);
     perspective: 1000px;
     cursor: pointer; /* El cursor se posiciona como elemento interactivo */
@@ -90,7 +90,7 @@ article {
     transition: transform 0.5s, color 0.5s, background-color 0.5s; /* Tiempo que demora el volteo */
     position: relative;
     border-radius: 30px;
-    margin-right: 10px;
+    margin: 30px;
 }
 
 .efecto-volteo::before {
